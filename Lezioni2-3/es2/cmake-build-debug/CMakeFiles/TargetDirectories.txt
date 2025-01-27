@@ -1,3 +1,0 @@
-/Users/damianobivona/Documents/Steve Jobs Academy/Fondamenti di informatica/es2/cmake-build-debug/CMakeFiles/es2.dir
-/Users/damianobivona/Documents/Steve Jobs Academy/Fondamenti di informatica/es2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/damianobivona/Documents/Steve Jobs Academy/Fondamenti di informatica/es2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
