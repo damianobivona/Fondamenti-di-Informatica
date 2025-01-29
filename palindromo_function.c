@@ -13,14 +13,14 @@ int main() {
     
     int a = 0;
 
-    while ( getchar() = w) {
+    while ( (w = getchar()) != '\n') {
         word[a] = w;
         a++;
     }
     
-    word[i] = '\0'
+    word[a] = '\0';
 
-    if (pal(word, i)) {
+    if (pal(word, a)) {
         printf("La parola (%s) NON è palindroma!", word);
     }
     printf("La parola (%s) è palindroma!", word);
