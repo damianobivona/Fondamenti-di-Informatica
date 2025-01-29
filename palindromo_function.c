@@ -8,9 +8,10 @@ int main() {
 
     char word[LMAX];
     char w;
-    int a = 0;
 
     printf("Inserisci una parola: ");
+    
+    int a = 0;
 
     while ( getchar() = w) {
         word[a] = w;
