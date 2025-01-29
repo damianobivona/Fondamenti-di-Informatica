@@ -4,7 +4,7 @@
 
 int pal(char[], int);
 
-int main() {
+int main() { // commento per commit
 
     char word[LMAX];
     char w;
