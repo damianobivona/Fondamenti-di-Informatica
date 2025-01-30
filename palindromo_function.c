@@ -32,8 +32,8 @@ int pal(char word[], int i) {
     int s = 0;
     int e = i - 1;
 
-    while ( s < e) {
-        if (word[s] != word[e]) {
+    while ( s < e ) {
+        if ( word[s] != word[e] ) {
             return 0;
         }
         s++;
