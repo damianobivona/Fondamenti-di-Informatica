@@ -18,6 +18,7 @@ int main() {
     big(x, y);
 }
 
+// funzione che effettua il controllo sulle variabili inserite dall'utente
 int big(int a, int b) {
 
     if (a > b) {
