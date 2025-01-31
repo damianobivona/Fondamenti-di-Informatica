@@ -11,12 +11,12 @@ int guess(int); // gestisce i tentativi dell'utente
 
 int main() {
 
-    int number = caso() ;
+    int number = caso() ; // dichiariamo la var. number e la assegnamo alla funzione caso
     printf("Ho pensato a un numero.\n");
 
-    printf("%d \n", caso());
+    printf("%d \n", caso()); // stampa il numero casuale per controllo!
 
-    int tentativo = guess(number);
+    int tentativo = guess(number); // dichiariamo la var. tentativo e la assegnamo alla funzione guess
     printf("Hai indovinato il numero in %d tentativi.\n", tentativo);
 
 }
