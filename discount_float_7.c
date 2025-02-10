@@ -18,7 +18,7 @@ int main () {
     scanf("%lf", &perc);
 
     save = discount(price, perc);
-    printf("(Il tuo prezzo verrà ridotto di: € %.2lf !)\n \n ---- PREZZO FINALE: € %.2lf\n", save, price - save);
+    printf("\n(Il tuo prezzo verrà ridotto di: € %.2lf !)\n \n ---- PREZZO FINALE: € %.2lf\n", save, price - save);
 }
 
 float discount(float p, float d) {
