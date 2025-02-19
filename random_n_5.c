@@ -18,7 +18,7 @@ int main () {
     // 101 perché così genera i numeri da 1 a 100
     // (fosse stato solo "100", generava da 0 a 99) (non ho capito perché)
 
-    printf("numero a caso: %d \n", random);
+    //printf("numero a caso: %d \n", random);
     // mi serve per capire il numero generato
     // non posso andare davvero a tentativi dai
 
