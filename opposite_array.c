@@ -29,13 +29,9 @@ int main() {
     for (int i = 0; i < x; i++) {
         printf("%d ", b[i]);
     }
-
-
-
 }
 
 int opposite(int dritto[], int inv[], int n) {
-
 
     for (int j = n - 1, i = 0; j >= 0; j--, i++) {
         inv[j] = dritto[i];
