@@ -53,7 +53,7 @@ void sort(int numbers[], int n) {
         }
     }
 
-}
+} //bubblesort
 
 float mediana(int numbers[], int n)
 {
