@@ -12,7 +12,7 @@ Al termine dellʼelaborazione, il programma stamperà lʼarray modificato.
 
 #include <stdio.h>
 
-int replace(int[], int, int, int);
+void replace(int[], int, int, int);
 
 int main() {
     int n;
@@ -28,28 +28,23 @@ int main() {
 
     int x, y;
 
-    replace(array, n, x, y);
-    for (int i = 0; i < n; i++) {
-        printf("%d ", array[i]);
-    }
-}
-
-int replace(int array[], int n, int x, int y) {
-
-    x = 0;
-    y = 0;
-
     printf("Choose a number: ");
     scanf("%d", &x);
 
     printf("Replace it with...\nWrite it here: ");
     scanf("%d", &y);
 
+    replace(array, n, x, y);
+    for (int i = 0; i < n; i++) {
+        printf("%d ", array[i]);
+    }
+}
+
+void replace(int array[], int n, int x, int y) {
 
     for (int i = 0; i < n; i++) {
         if (array[i] == x) {
-            x = y;
             array[i] = y;
         }
-    } return array[n];
+    }
 }
