@@ -31,8 +31,6 @@ int main() {
     printf("Choose a number: ");
     scanf("%d", &x);
 
-
-
     ref(array, n, x);
     int val = ref(array, n, x);
 
@@ -43,7 +41,6 @@ int ref(int array[], int n, int x) {
 
     int diff = abs(array[0] - x);
     int val = 0;
-
 
     for (int i = 0; i < n; i++) {
         if (array[i] == x) {
